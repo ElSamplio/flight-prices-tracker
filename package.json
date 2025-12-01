@@ -1,0 +1,31 @@
+{
+  "name": "vuelo-tracker-mad-bog-amadeus",
+  "version": "1.0.0",
+  "description": "Busca automáticamente vuelos baratos Madrid → Bogotá con Amadeus, filtra sin escalas en EE.UU./Canadá y envía email cuando el precio baje del umbral",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "flights",
+    "amadeus",
+    "flight-tracker",
+    "price-alert",
+    "madrid-bogota",
+    "node.js"
+  ],
+  "author": "Tu nombre o alias",
+  "license": "MIT",
+  "dependencies": {
+    "amadeus": "^10.0.0",
+    "dotenv": "^16.4.5",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.11"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
